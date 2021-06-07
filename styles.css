@@ -67,7 +67,7 @@ sup{
        font-size: 30px;
    }
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 360px) {
   .cards { grid-template-rows: repeat(4, 1fr);
   }
   h2{
